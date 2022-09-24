@@ -8,12 +8,10 @@ pip3 install vext.gi
 sudo apt install pkg-config libcairo2-dev gcc python3-dev libgirepository1.0-dev
 pip3 install gobject PyGObject
 ```
-
-## Note:
-
-
 ## Run the program
+``` bash
 python3 main.py
+```
 
 ## Note: 
 1. Sample Audios and sample text file are provided
