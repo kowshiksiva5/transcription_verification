@@ -131,7 +131,7 @@ class App(QMainWindow):
             fullpath = QtCore.QDir.current().absoluteFilePath(filename)
             try:
                 sound  = AudioSegment.from_file(fullpath)
-                play(speed_change(sound, 1.25))
+                play(speed_change(sound, 1.15))
             except Exception as e:
                 print(e)
 
